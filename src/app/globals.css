@@ -1,42 +1,72 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-color: darkseagreen;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.countryNameStyle {
+  padding-top: 10px;
+  font-size: 19px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.cName {
+  color: white;
+  /* border: solid grey 1px; */
+  padding-top: 8px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.capital {
+  color: white;
+  /* border: solid grey 1px; */
+  padding-top: 8px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.region {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  /* border: solid grey 1px; */
+  font-size: 15px;
+  padding-top: 14px;
+}
+.countryStyle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  overflow-y: scroll;
+  height: 100vh;
+}
+/* .input {
+  width: 10vw;
+} */
+.word {
+  color: black;
+  border: solid grey 1px;
+  border-radius: 2px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.maps {
+  /* border: solid grey 1px; */
+  padding-top: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.map {
+  color: white;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.ug {
+  padding-top: 7px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+}
+
+.words {
+  display: flex;
 }
